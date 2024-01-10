@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
 
 * {
   margin: 0;
@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: 'Press Start 2P', sans-serif;
+  font-family: "Press Start 2P", sans-serif;
   color: #eee;
   background-color: #222;
   /* background-color: #60b347; */
@@ -26,7 +26,8 @@ header {
 }
 
 main {
-  height: 65vh;
+  height: auto;
+  min-height: 65vh;
   color: #eee;
   display: flex;
   align-items: center;
@@ -38,11 +39,18 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
 .right {
   width: 52rem;
   font-size: 2rem;
+  margin-bottom: 2rem 0;
+}
+.bottom {
+  position: absolute;
+  left: 2rem;
+  bottom: 1rem;
 }
 
 /* ELEMENTS STYLE */
