@@ -19,3 +19,13 @@ for (let i = 0; i < btnsOpenModals.length; i++) {
     });
   });
 }
+
+document.addEventListener("keydown", function (event) {
+  if (event.key === "Escape") {
+    for (let i = 0; i < btnsOpenModals.length; i++) {
+      if (!modals[i].classList.contains("hidden")) {
+        modals[i].classList.add("hidden");
+      }
+    }
+  }
+});

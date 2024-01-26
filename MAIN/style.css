@@ -28,7 +28,7 @@ h1 {
 }
 /* Modal styling */
 .modal {
-  position: absolute;
+  position: relative;
   width: 70%;
   background-color: #000000;
   color: #ffffff;
@@ -80,9 +80,15 @@ footer {
 footer p {
   margin: 5px 0;
 }
-img {
-  position: absolute;
-  width: 70%;
+
+#my-image {
+  width: 20%; /* Further reduce the width percentage */
+  max-width: 100%; /* Ensures image does not exceed its natural size */
+  max-height: 80vh; /* Limits the height of the image, adjusts according to the viewport height */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Removes any default inline spacing */
+  margin: 0 auto; /* Center the image within the modal */
+  object-fit: contain; /* Ensures the entire image is always visible, contained within its dimensions */
 }
 
 /* Add any additional styles for specific sections if needed */
