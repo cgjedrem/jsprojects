@@ -1,0 +1,137 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light grey text for contrast */
+  line-height: 1.6;
+  margin: 0;
+  padding: 1rem;
+}
+
+h1 {
+  color: #4d9fec; /* Light blue for headings */
+  text-align: center;
+}
+
+h2 {
+  color: #4d9fec; /* Light blue for headings */
+  text-align: center;
+}
+
+.announcements {
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+.checkGoal {
+  border: none;
+  background-color: inherit;
+  color: inherit;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 2rem 3rem;
+  cursor: pointer;
+  border: 2px dashed rgb(207, 255, 250);
+  border-radius: 5px;
+  padding: 1rem; /* Add padding for visual spacing */
+  flex: 1;
+}
+
+.goal {
+  border: 2px dashed rgb(207, 255, 250);
+  border-radius: 5px;
+  padding: 1rem; /* Add padding for visual spacing */
+  flex: 1;
+}
+
+.teams {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.team1,
+.team2 {
+  flex: 1; /* Equal width for both teams */
+  text-align: center;
+  border: 2px dashed rgb(207, 255, 250);
+  border-radius: 5px;
+  padding: 1rem; /* Add padding for visual spacing */
+}
+
+.team1 h2 {
+  color: #bddfff; /* Light blue for headings */
+  text-align: center;
+  margin: 0; /* Reset any default margin */
+  size: 5px;
+}
+
+.team1 h3 {
+  color: #bddfff; /* Light blue for headings */
+  font-size: 2rem;
+}
+
+.team2 h2 {
+  color: rgb(221, 118, 9);
+  text-align: center;
+  margin: 0; /* Reset any default margin */
+  size: 5px;
+}
+
+.team2 h3 {
+  color: rgb(221, 118, 9);
+  font-size: 2rem;
+}
+
+.back {
+  border: none;
+  background-color: inherit;
+  color: inherit;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 2rem 3rem;
+  cursor: pointer;
+  border: 2px dashed rgb(207, 255, 250);
+  border-radius: 5px;
+  padding: 1rem; /* Add padding for visual spacing */
+}
+
+.team1 ul {
+  list-style-type: none;
+  text-align: center;
+  color: inherit;
+  font-size: 2rem;
+  font-family: inherit;
+}
+
+.team1 li {
+  background-color: darkblue;
+  border: 1px dashed;
+}
+
+.team2 ul {
+  list-style-type: none;
+  text-align: center;
+  color: inherit;
+  font-size: 2rem;
+  font-family: inherit;
+}
+
+.team2 li {
+  background-color: rgb(237, 89, 31);
+  border: 1px dashed;
+}
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #242424; /* Dark footer background */
+  color: #ccc; /* Lighter text for the footer */
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 5px 0;
+}
